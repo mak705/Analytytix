@@ -1,0 +1,887 @@
+ Python
+--------
+	- interpreted programming/scripting language?
+	- it's an Object Oriented Language
+	- easy to learn, underrstand, code.
+
+	- dynamically typed language
+
+		int x = 10;
+		float b = 10.8;
+
+		x = x/9.6 //error!
+		x = "abc" //
+
+		x = 10
+		x = x/10.8
+		x = "abc"
+	- Platform independent
+	- many applications can be built
+	- it can cater to various application areas
+		- web apps
+		- mobile apps
+		- games
+		- desktop utility apps
+		- **AUTOMATION
+		- Database Programming
+		- Middleware
+		- Data Science
+	- Python is modular
+		- provides different user CONTRIBUTED modules/pacakges
+		- they add the additional functionalioty
+	- good integration with other systems
+	- PYTHON IS FREE! FLOSS : Free and Libere Open Source S/W
+		- there is lot of community contribution
+	- All famous/cool things are built in python 
+	
+---------------------------------------------------------------------
+Python in our DSP Course : 
+	- Programming Language Fundamentals
+		- vars
+		- UDF
+		- conditionals
+		- loops
+		- modules
+		- deal with data types and data structures
+		- Object Oriented Programming
+	- Connect with various sources of Data
+		- structured - RDMS, Excel, Text-Delim
+		- semi-structured - XML, JSON
+		- unstructured - text
+	- Metadata Insights
+	- Data Preparation
+	- Data Analysis - past and future
+	- Data Visualizations
+------------------------------------------------------------------
+Data Manipualtions/Munging/Wrangling : 
+	- Preparing a file, ready for analysis
+	- E.g. : Banking : Target is Customer Analysis
+		- Demographic Data : 
+			KYC
+		- Cust Spending data
+			- ATM
+			- POS
+		- Buy third party data
+			- Lifestyle data
+		- Credit CIBIL
+	- Making data error free
+-----------------------------------------------------------------
+Data Analysis
+--------------
+	1. Exploring the past
+	2. Predicting the future
+
+	- Descriptive Analysis
+	- Inferential Statistics
+	- Predictive
+	- Prescriptive Analysis
+	- Congnitive Analytics
+-----------------------------------------------------------------
+Data Visualizations
+-------------------
+	- Static Reports
+	- Dynamic Reports
+	- Graphs
+	- Natural Language Generation
+		Augumented AI
+
+-----------------------------------------------------------------
+Inferential Stats
+-------------------
+	- Sampling
+	- Distributions
+	- Hypothesis Test
+-----------------------------------------------------------------
+Foundation				Advanced
+---------				--------
+programming				Applied Stats
+data connections			ML
+manipulations				Text Mining
+visulalizations
+Stats
+-----------------------------------------------------------------
+Data Science
+	- what is DS
+	- who is a Data Scientist?
+	- How that role is different from Business Analyst?
+
+
+	BA vs DS
+		- Heuristic Approach vs Scientific Approach
+		- Knowledge vs a formula/method/function/algo
+		- Past Incidents wisdom vs Data Driven Approach
+		- Qualitative vs Quamtitiative
+
+	- Data Handling
+							Big Data
+	- Data Connecting
+	- Data Pre-Processing
+							Programming
+	- Scientifc method to solve a business problem
+	- Algos
+	- Applied Statistics
+							ML, AS, IS
+	- Heuristic Approach + Scientific Approach
+							Functional understanding
+								
+
+
+	- Data Scientist
+
+
+
+
+
+
+
+
+
+
+
+
+Anaconda for Python 3
+https://www.anaconda.com/distribution/#windows
+https://repo.anaconda.com/archive/Anaconda3-2019.10-MacOSX-x86_64.pkg
+
+- Python 3.8
+- Front end to work upon - GUI
+	- IDE  :  it has everything! - Spyder
+	- Tool : Jupyter Notebook
+- Packages related to DS - 700+ 
+
+During installation : 
+	- Tick the check box that asks to set PATH automatically
+
+
+Miniconda
+- Python 3.8
+- Front end to work upon - GUI
+	- IDE  :  it has everything! - Spyder
+	- Tool : Jupyter Notebook
+- Packages related to DS - few pacakges only
+
+Canopy 
+------
+- Python 3.8
+- Front end to work upon - GUI
+	- Tool : Jupyter Notebook
+- Packages related to DS - few pacakges only - all imp packages
+
+
+ 
+
+
+
+- Python Language Fundamentals
+- Descriptive Stats
+	- Pandas - data manipulation
+		panel data analysis
+	- Visaulaization
+------------------------------------
+- Inferential Statistics
+---------------------------------------------------------------------
+- Anaconda or Canopy
+	- no pycharm
+- MS Excel
+- google
+---------------------------------------------------------------------
+- What is Python
+	- object oriented scripting language
+	- open source
+	- easy to learn, understand, implement
+	- lot of contributors for various application areas
+		- users can define their functions
+		- they can put it together as a package/module/API
+		- can be used to LOT of things!
+			- web scripting
+			- app development - wed/desktop
+			- networking
+			- IoT
+			- Statistical computing/ML/DL/AI
+	- Interpreted language
+	- cross platform
+	- secure?
+	- preferably used for automation
+	- Powerful processing ability
+- Our goal with python
+	- data manipulations
+	- visaulizations
+	- inferential stats
+	- applied stats
+	- machine learning
+- Meaning?
+	- we need modules/pacakges for the above process
+======================================================================- 
+Anaconda for Python 3.xxx : 
+- Python software 3.xxx
+- we need modules/pacakges for Data Sc and ML	-   700+ packages
+- front end/GUI/IDE
+	- jupyter notebook *
+	- sypder (sci python development editor) *
+     --------------------------------------------------
+	- pycharm
+	- Notepad++
+	- ATOM
+	- Eclipse
+======================================================================
+Jupyter Notebook
+----------------
+	- reporting tool
+	- can process code (py, R, SAS, Julia)
+	- we can insert multimedia elements and stylized text.
+	- starting jupyter notebook
+		- Anaconda Navigator
+		or
+		- Jupyter Notebook app
+		C:/user/user_name
+		or
+		- via the shell (cmd/terminal)
+		- the Anaconda Prompt
+
+	- Cells
+	- Two states of a cell
+		- select - blue - Esc
+		- edit - green - click or Enter
+	- Three modes of a cell
+		- code (default)		: Esc and then Y
+		- Raw NBConvert - 		: Esc and then R
+			- raw, unprocessed text 
+		- Markdown - 
+			- stylized text		: Esc and then M
+	- A cell needs to be "run" 
+		- Ctrl + Enter : run and show the output
+		- Shift + Enter : run and go to the next Cell
+				  or create one if it doesn't exist
+		- Alt + Enter : run and create a new cell below
+	- deleting a cell : Esc and then press D twice
+	- Undo is Esc and Z
+	  Cut is Esc and X
+	  Copy Esc and then C
+	  Paste is esc and then V
+----------------
+Markdown
+	- getting stylized text
+
+----------------
+Python Syntax Rules
+
+0. Python is case sensitive
+1. # is used for comments
+	- only single line commnets are present in Python
+	- put # infront of each line that we want as comment
+
+2. Identifier Naming rules and conventions
+	2.1 A name has to be alphanumeric
+	2.2 No speacial symbols to be used except _
+	2.3 Name must not begin with a number
+		123myvar    :  incorrerct
+		myvar123
+		_myvar
+		__name__
+	2.4 we should not be using keywords as a var/identifier name
+3. Operators
+	3.1 Assignment 
+		= 
+		x = 10
+	3.2 Arithematic
+		/ // % ** * - +
+		
+		- operator precedence
+		- what is the arithematic operator precedence
+
+			5 + 2 / 4 % 60 ** 2 
+	3.3 Relational Operators
+		>
+		<
+		>=
+		<=
+		==
+		!=
+			True False
+	3.4 Logical Operators
+
+	Generic			Python			   pandas/numpy		
+       ----------		------			  ---------
+	AND			and			  &
+	OR			or			  |
+	NOT			not			  ~ or -
+
+	3.5 Bitwise Operators
+		
+		&
+		|
+		~
+		<<
+		>>
+
+	3.6 Others
+		?  : help
+		.  : accessability
+		etc
+4. Data Types
+
+     generic			python 3.x		      pandas
+    ----------		       ------------   		   -----------
+    numbers			int			   int32/int64
+				float       		   float64
+    text			str			   object
+    boolean			bool			   bool
+				(True/False)
+    complex
+-----------------------------------------------------------------------
+    date/time			datetime		  datetime64		
+
+
+	what is the general range for integers?
+	and how is long different from int?
+	does python have long datatype?
+
+
+	what is the datatype precedence in py?
+		
+		str
+		float
+		int
+		bool
+	how and when does this order effect out calculations?
+		during the type conversions
+
+		str
+		float
+		int
+		bool
+
+		"10.45"
+		"abc"
+
+	
+		333.333
+	functions
+		- type()   : tells the datatype of an object
+		- str()    : converts an object to string
+		- float()  : converts an object to float
+		- int()    : converts an object to int
+		- bool()   : converts an object to bool	
+
+
+			int(x) : converts x to int and just prints 
+		    x = int(x) : converting x to int and save it back
+				 to x
+		    y = int(x) : converting x to int and save it to y
+				 x still retains it's original datatype
+
+	x = 10
+	- Dynamically typed
+	- Initialization may be required but the is NO mechanism
+	  to declare variables
+
+---------------------------------------------------------------------
+  Attributes and Functions
+-----------------------------
+
+	- these are data + functions
+	- and are avialable only within an object and to be used
+	  only by those objects that belong to certain datatype/class
+	- E.g. : extract real() and imag() from a complex number
+		 convert "abcdef" to upper() case
+	- We cannot use them directly!
+		E.g. 
+		     s1 = "abcdef"
+		     upper(s1) # incorrect
+	- We have to use the access operator --> .
+		    
+		     s1.upper() # works!!!
+	- Various objects will have various attributes, so to 
+	  know them : 
+		print(dir(obj))
+	- when we print dir, it prints 3 things : 
+		1. data
+		2. functions
+		3. internal data and functions represented by
+			__xxxxx__
+	- We can use ? operator to invoke the documentation for 
+	  a function/data.
+		- by chance we use () for data, it'll throw an 
+		  error
+			"xxxxx" object is not callable
+		- if we forget to use () for function, it'll 
+		  simply display the metadata for the function
+			<bound method for.................
+
+	---------------------------------------------------------
+	Task
+	---------------------------------------------------------
+	1. Print the attributes of an str object.
+	2. Explore each of these attributes..
+		2.1 Access them using . operator
+		2.2 Write a brief description of the function's
+	   	    usage and output
+	---------------------------------------------------------
+---------------------------------------------------------------------
+Data Structures
+-----------------
+
+	- 1 object storing one information
+	- object stores multiple information of one datatype only
+	- object stores multiple information of different datatypes
+	- object stores info of one datatype in 2 dimentions
+		
+			12   4   8
+			10  23  99
+                        88  76   9
+	- object stores info in 2 dimentions, has multiple datatypes
+		
+		1    "abc"    35674
+		2    "def"    46457
+		3    "eee"    24732
+		4    "dfg"    24374
+What does base Python provide?
+	- four data structures
+	- all the four are 1 dimentional, heterogenous data structures
+	- heterogenous - can contain data of different datatypes
+	- tuple
+	- list
+	- set
+	- dictionary
+What else?
+	- we can have more data structures from external modules
+
+1. Create a data structure
+2. How to access elements?
+3. How to apply conditions?
+4. What are the attributes and functions? 
+
+Conditional Statements : 
+	- Based on a condition the code will get executed
+	- 
+		 condition?
+			TRUE
+		 if not
+			FALSE
+
+	if, else and elif
+
+
+	# check if x is pos or neg
+	if(x > 0){
+      	printf("pos");
+	} 
+	else {
+	printf("neg");
+	}
+
+	if(x > 0){		
+      	    printf("pos");
+	}
+	else {
+	    printf("neg");
+	}
+
+	if x > 0:
+            print("pos")
+	    print("something")
+	else:
+    	    print("neg")
+	    print("nothing")
+	print("we are done!")
+/--------------------------------------------------------------------\
+|						                     |	
+\--------------------------------------------------------------------/
+
+
+
+
+
+
+list and tuple
+===============
+	- tuple is immutable
+	- int, float, str, tuple, bool
+	- list is editable - values can be changed, appended, removed, insert
+	
+	list : 
+		append
+		extend -> concat two lists
+		insert
+
+
+1. create () []	
+2. access --> []
+3. apply conditions
+	
+	for element in array:
+	    if(ele):
+
+
+	list comprehensions
+4. attributes and functions
+
+
+	- 1d heterogeneous
+	- indexed
+	- infinite size
+---------------------------------------------------------------------
+dictionary
+----------
+
+	- 1 dimentional hetero data structure
+	- does not use indexes
+	- rahter, they have keys that represent/store the current value
+	- they're key:value pairs
+	
+		{key1:value1,key2:value2,key3:value3 ....}
+
+	rules for keys and values
+		- keys must be unique
+		- keys are immutable
+			- int, float, str, tuple
+			- lists can't be a key
+		- values can be anything, of any size, of any type
+	
+-------------------------------------------------
+- data types
+	- conversions
+- data structures
+	- tuples
+	- list
+	- set
+	- dict
+- program structures
+	- conditionals
+	- iterations statements
+--------------------------------------------------
+- program structures
+	- conditionals
+	- iterations statements
+	- user definded functions
+	- lambda functions
+	- mapping and filtering
+	- modules
+	- packages
+	- Object Oriented Programming
+		- oop concepts and terms	
+		- object
+		- classes
+		- creating classes
+
+----------------------------------------------------------------------
+UDF 
+
+	- named set of instructions
+	- can be repeated and reused
+	- part of a larger program
+
+	- created using def
+		
+		def function_name():
+		    code
+	- inputs
+		- arguments : args
+		- default arguments
+			- setting default values to the arguments
+	- outputs
+		- print
+		- capturable outputs
+			return
+	- function call
+		- arguments can also be passed with names
+			- key word arguments - kwargs
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+     OOP
+--------------
+	- Objects in general
+		- anything that is tangible
+		- its has got some properties
+		- it has some uses, it can perform some tasks
+		- mostly, objects are born out of a template/blueprint
+		- this blueprint
+			- defines the properties
+			- defines the functions
+			- combines them into one single unit
+	- Object Oriented Programming
+	  Objects
+		- we make use of objects, which are a copy of
+		  real world objects
+		- object has characterstics ---> data
+		- object exhibits a behaviour  ----> functions()
+						      code
+		- Objects are created using a class
+	- Class
+		- is a blueprint where functions and default 
+		  properties are defined
+		- the properties defined in class can be modified
+		  if modification permissions are granted
+		- this can be done
+			- during the object creation
+			- after the object is created
+		- a class combines code and data together
+		- A class can give rise to infinite number of objects
+
+The process of creating an object from a class : 
+		INSTANTIATION
+To create an object, we need to make use of a function, and that
+function has the same name as that of the class name.
+		CONSTRUCTOR
+To delete an object, we make use of a
+		DESTRUCTOR
+Constructor is defined implicitly or can be defined by the user. The 
+implicit constructor 
+		COPY CONSTURCTOR
+If the user creates a constructor and they set some default values
+in the constructor definition
+		DEFAULT CONSTRUCOR
+
+The process of combining code and data together into one single
+unit called class is called
+		ENCAPSULATION
+
+The process of hiding sensitive info and showing only what is 
+necessary
+		ABSTRACTION
+We achieve abstraction by making use of various access specifiers
+and modifiers
+		public		available for everyone				any var public		
+		private		only within a block of code			_x
+		protected	only within a set of classes/pacakge		__x
+
+There exists a process where one class can aquire the props and 
+functions of another class with certain restrictions
+		INHERITANCE
+
+
+Data science process
+========================================
+
+	- maths
+	- stats
+	- applied stats
+	- data handling - table capabilities
+	- visualizations
+	- other advanced requirements
+		 - ML
+		 - NNets
+		etc
+
+
+- NumPy
+	- what is the functionalities of NumPy
+	- data structures provided by NumPy
+	- properties of those ds
+- pandas
+	- what is pandas
+	- Data Structures
+
+
+----------------------------------------------------------------------
+NumPy
+-------
+	- functions related to maths, stats, advanced maths,	
+	  trignometry, algebra, calculus, matrix 
+	- NumPy's ndarray data structure
+		- homogenous n dimentional (max 16) DS	
+		- vectorized
+	- array
+		- ndarray of 1 dimentions
+		- homogenous
+
+----------------------------------------------------------------------
+pandas
+---------
+	- panel data analysis
+	- pandas is what makes tables possible in python	
+	- it contains the table data structure and the related 
+	  function to work upon
+	- pandas provides two data structures
+		- a 1 d homogenous 
+			pandas.Series
+		- a combination of the above, 2d, heterogenous
+			pandas.DataFrame
+
+- pandas Series
+	- create
+	- indexes
+		- list, tuple or set : indexes
+			- 0 to n-1
+		- dict : keys
+			- can be anything, untill it is immutable
+			- nope, indexes don't exist
+		- series : two indexes/locations
+			- default locations
+				- always exists internally		
+				- we can't see it or can't MODIFY it
+				- 0 to n-1
+				- iloc
+			- user given locations
+				- they are the ones that can be seen
+			          in the display
+				- by default, they're same as iloc
+				- loc
+				- can be modified by the user
+					- during creation
+					- after creating series
+
+
+	- access elements
+		- we must no use [] directly
+		- .iloc[]
+		- .loc[]
+
+
+	- apply conditions
+	- attributes and functions
+- pandas DataFrame
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+
+
+
+
+
+
+
+
+
