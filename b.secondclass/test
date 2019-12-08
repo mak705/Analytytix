@@ -1,1 +1,170 @@
-test
+ Python
+--------
+	- interpreted programming/scripting language?
+	- it's an Object Oriented Language
+	- easy to learn, underrstand, code.
+
+	- dynamically typed language
+
+		int x = 10;
+		float b = 10.8;
+
+		x = x/9.6 //error!
+		x = "abc" //
+
+		x = 10
+		x = x/10.8
+		x = "abc"
+	- Platform independent
+	- many applications can be built
+	- it can cater to various application areas
+		- web apps
+		- mobile apps
+		- games
+		- desktop utility apps
+		- **AUTOMATION
+		- Database Programming
+		- Middleware
+		- Data Science
+	- Python is modular
+		- provides different user CONTRIBUTED modules/pacakges
+		- they add the additional functionalioty
+	- good integration with other systems
+	- PYTHON IS FREE! FLOSS : Free and Libere Open Source S/W
+		- there is lot of community contribution
+	- All famous/cool things are built in python 
+	
+---------------------------------------------------------------------
+Python in our DSP Course : 
+	- Programming Language Fundamentals
+		- vars
+		- UDF
+		- conditionals
+		- loops
+		- modules
+		- deal with data types and data structures
+		- Object Oriented Programming
+	- Connect with various sources of Data
+		- structured - RDMS, Excel, Text-Delim
+		- semi-structured - XML, JSON
+		- unstructured - text
+	- Metadata Insights
+	- Data Preparation
+	- Data Analysis - past and future
+	- Data Visualizations
+------------------------------------------------------------------
+Data Manipualtions/Munging/Wrangling : 
+	- Preparing a file, ready for analysis
+	- E.g. : Banking : Target is Customer Analysis
+		- Demographic Data : 
+			KYC
+		- Cust Spending data
+			- ATM
+			- POS
+		- Buy third party data
+			- Lifestyle data
+		- Credit CIBIL
+	- Making data error free
+-----------------------------------------------------------------
+Data Analysis
+--------------
+	1. Exploring the past
+	2. Predicting the future
+
+	- Descriptive Analysis
+	- Inferential Statistics
+	- Predictive
+	- Prescriptive Analysis
+	- Congnitive Analytics
+-----------------------------------------------------------------
+Data Visualizations
+-------------------
+	- Static Reports
+	- Dynamic Reports
+	- Graphs
+	- Natural Language Generation
+		Augumented AI
+
+-----------------------------------------------------------------
+Inferential Stats
+-------------------
+	- Sampling
+	- Distributions
+	- Hypothesis Test
+-----------------------------------------------------------------
+Foundation				Advanced
+---------				--------
+programming				Applied Stats
+data connections			ML
+manipulations				Text Mining
+visulalizations
+Stats
+-----------------------------------------------------------------
+Data Science
+	- what is DS
+	- who is a Data Scientist?
+	- How that role is different from Business Analyst?
+
+
+	BA vs DS
+		- Heuristic Approach vs Scientific Approach
+		- Knowledge vs a formula/method/function/algo
+		- Past Incidents wisdom vs Data Driven Approach
+		- Qualitative vs Quamtitiative
+
+	- Data Handling
+							Big Data
+	- Data Connecting
+	- Data Pre-Processing
+							Programming
+	- Scientifc method to solve a business problem
+	- Algos
+	- Applied Statistics
+							ML, AS, IS
+	- Heuristic Approach + Scientific Approach
+							Functional understanding
+								
+
+
+	- Data Scientist
+
+
+
+
+
+
+
+
+
+
+
+
+Anaconda for Python 3
+https://www.anaconda.com/distribution/#windows
+https://repo.anaconda.com/archive/Anaconda3-2019.10-MacOSX-x86_64.pkg
+
+- Python 3.8
+- Front end to work upon - GUI
+	- IDE  :  it has everything! - Spyder
+	- Tool : Jupyter Notebook
+- Packages related to DS - 700+ 
+
+During installation : 
+	- Tick the check box that asks to set PATH automatically
+
+
+Miniconda
+- Python 3.8
+- Front end to work upon - GUI
+	- IDE  :  it has everything! - Spyder
+	- Tool : Jupyter Notebook
+- Packages related to DS - few pacakges only
+
+Canopy 
+------
+- Python 3.8
+- Front end to work upon - GUI
+	- Tool : Jupyter Notebook
+- Packages related to DS - few pacakges only - all imp packages
+
+
