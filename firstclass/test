@@ -1,1 +1,62 @@
-test
+
+# coding: utf-8
+
+
+
+def SumOfNums(x,y):
+    res = x + y
+    return res
+
+
+
+def Sum_def(x=0,y=0):
+    res = x + y
+    return res
+
+
+
+def power_calc(n,p):
+    return(n ** p)
+
+def ScoreCard(**kwargs):
+    s = 0
+    for i in kwargs.values():
+        s += i
+    
+    avg = s/len(kwargs)
+    print("The avg score in",list(kwargs.keys()),"is",avg)
+
+
+
+
+def Calculator(x = 0, y = 0):
+    Sum = x + y
+    Diff = x - y
+    Prod = x * y
+    Quo = x // y
+    Rem = x % y
+    
+    res = [Sum,Diff,Prod,Quo,Rem]
+    return res
+
+
+
+def Sum(*args):
+    # anyways, type(args) is a tuple, we can use tuple retaled logic
+    s = 0
+    for ele in args:
+        s += ele
+    return s
+    
+
+
+pi = 3.142
+course = "DSP"
+batch = "November 2019"
+city = "BLR"
+
+
+
+
+
+
