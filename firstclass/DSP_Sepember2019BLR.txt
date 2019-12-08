@@ -1,0 +1,1583 @@
+- Python Language Fundamentals
+- Descriptive Stats
+	- Pandas - data manipulation
+		panel data analysis
+	- Visaulaization
+------------------------------------
+- Inferential Statistics
+---------------------------------------------------------------------
+- Anaconda or Canopy
+	- no pycharm
+- MS Excel
+- google
+---------------------------------------------------------------------
+- What is Python
+	- object oriented scripting language
+	- open source
+	- easy to learn, understand, implement
+	- lot of contributors for various application areas
+		- users can define their functions
+		- they can put it together as a package/module/API
+		- can be used to LOT of things!
+			- web scripting
+			- app development - wed/desktop
+			- networking
+			- IoT
+			- Statistical computing/ML/DL/AI
+	- Interpreted language
+	- cross platform
+	- secure?
+	- preferably used for automation
+	- Powerful processing ability
+- Our goal with python
+	- data manipulations
+	- visaulizations
+	- inferential stats
+	- applied stats
+	- machine learning
+- Meaning?
+	- we need modules/pacakges for the above process
+======================================================================- 
+Anaconda for Python 3.xxx : 
+- Python software 3.xxx
+- we need modules/pacakges for Data Sc and ML	-   700+ packages
+- front end/GUI/IDE
+	- jupyter notebook *
+	- sypder (sci python development editor) *
+     --------------------------------------------------
+	- pycharm
+	- Notepad++
+	- ATOM
+	- Eclipse
+======================================================================
+Jupyter Notebook
+----------------
+	- reporting tool
+	- can process code (py, R, SAS, Julia)
+	- we can insert multimedia elements and stylized text.
+	- starting jupyter notebook
+		- Anaconda Navigator
+		or
+		- Jupyter Notebook app
+		C:/user/user_name
+		or
+		- via the shell (cmd/terminal)
+		- the Anaconda Prompt
+
+	- Cells
+	- Two states of a cell
+		- select - blue - Esc
+		- edit - green - click or Enter
+	- Three modes of a cell
+		- code (default)		: Esc and then Y
+		- Raw NBConvert - 		: Esc and then R
+			- raw, unprocessed text 
+		- Markdown - 
+			- stylized text		: Esc and then M
+	- A cell needs to be "run" 
+		- Ctrl + Enter : run and show the output
+		- Shift + Enter : run and go to the next Cell
+				  or create one if it doesn't exist
+		- Alt + Enter : run and create a new cell below
+	- deleting a cell : Esc and then press D twice
+	- Undo is Esc and Z
+	  Cut is Esc and X
+	  Copy Esc and then C
+	  Paste is esc and then V
+----------------
+Markdown
+	- getting stylized text
+
+----------------
+Python Syntax Rules
+
+0. Python is case sensitive
+1. # is used for comments
+	- only single line commnets are present in Python
+	- put # infront of each line that we want as comment
+
+2. Identifier Naming rules and conventions
+	2.1 A name has to be alphanumeric
+	2.2 No speacial symbols to be used except _
+	2.3 Name must not begin with a number
+		123myvar
+		myvar123
+		_myvar
+		__name__
+	2.4 we should not be using keywords as a var/iden name
+3. Operators
+	3.1 Assignment 
+		= 
+		x = 10
+	3.2 Arithematic
+		/ // % ** * - +
+		
+		- operator precedence
+		- what is the arithematic operator precedence
+
+			5 + 2 / 4 % 60 ** 2 
+	3.3 Relational Operators
+		>
+		<
+		>=
+		<=
+		==
+		!=
+			True False
+	3.4 Logical Operators
+
+	Generic			Python			   pandas/numpy		
+       ----------		------			  ---------
+	AND			and			  &
+	OR			or			  |
+	NOT			not			  ~ or -
+
+	3.5 Bitwise Operators
+		
+		&
+		|
+		~
+		<<
+		>>
+
+	3.6 Others
+		?  : help
+		.  : accessability
+		etc
+4. Data Types
+
+     generic			python 3.x		      pandas
+    ----------		       ------------   		   -----------
+    numbers			int			   int32/int64
+				float       		   float64
+    text			str			   object
+    boolean			bool			   bool
+				(True/False)
+    complex
+-----------------------------------------------------------------------
+    date/time			datetime		  datetime64		
+
+
+	what is the general range for integers?
+	and how is long different from int?
+	does python have long datatype?
+
+
+	what is the datatype precedence in py?
+		
+		str
+		float
+		int
+		bool
+	how and when does this order effect out calculations?
+		during the type conversions
+
+		str
+		float
+		int
+		bool
+
+		"10.45"
+		"abc"
+
+	
+		333.333
+	functions
+		- type()   : tells the datatype of an object
+		- str()    : converts an object to string
+		- float()  : converts an object to float
+		- int()    : converts an object to int
+		- bool()   : converts an object to bool	
+
+
+			int(x) : converts x to int and just prints 
+		    x = int(x) : converting x to int and save it back
+				 to x
+		    y = int(x) : converting x to int and save it to y
+				 x still retains it's original datatype
+
+	Dynamically Typed Language
+
+	Java :
+		int x = 10;
+		x = "abc"; // error
+
+	Python : 
+		int x = 10 
+		x = 10 # correct
+		x = "abc" # also correct
+
+	- Mutable and Immutable
+
+
+	training@analytixlabs.co.in
+	help@
+	Discussion forum
+	sunit.prasad@analytixlabs.co.in
+
+
+	Learn Python The Hard Way
+	https://www.amazon.in/Data-Vedas-Introduction-Science-ebook/dp/B07K5FCDVJ
+	archish@analytixlabs.co.in
+
+
+
+
+
+
+
+
+
+
+======================================================================
+Python's Data Structures
+========================
+heterogenous one dimentional DS
+	- tuple
+	- list
+	- set
+	- dictionary
+
+- definition/creation 
+- how to extract elements
+- how to alter/insert/delete elements
+- how can we filter elements
+- what are the additional attributes of the DS
+
+
+
+
+
+
+
+====================================================================
+Flow controll statements
+- Blocks
+	- start of a block is denoted by :
+	- indentation (4 space) defines the boundaries of a block
+- Conditionals
+
+	if(x > 0){
+	    printf("positive");
+	}
+	else {
+	    printf("negative");
+	}
+	printf("we're outside");
+
+	if(x > 0){
+	printf("positive");
+	}
+	else {
+	printf("negative");
+	}
+
+
+- Loops
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------
+
+dictionary
+user defined functions
+modules
+packages
+
+Object Oriented Programming
+
+
+--------------------------------------------------------------------
+Dictionary
+==========
+
+tuple and list : 
+	- 1d heterogenous ds
+	- immutable vs mutable
+	- elemnts are refered using index (0 to len-1)
+
+- 1d heterogenous DS
+- there will not be any indexes rahter there will be key-value pairs
+- elments are refered using keys
+
+Creating
+--------
+	- use {}
+	- {2,4,3,5,6,7,4,5,6} : set
+	- {key1:value1, key2:value2, key3:value3 ... }
+
+	Rules for creating keys and values
+	1. key should be unique
+	2. a key must be immutable
+	3. a key can be int, float, str, bool, tuple
+	4. values can be anything
+
+----------------------------------------------------------------------
+User Defined Functions
+
+- Program/Code? Set of instructions
+- Function?
+	- named set of instructions which can be reused
+	- can take inputs - 
+		arguments (args)
+		- default arguments while defining
+		- args when calling a function
+			AddNum(20,10)
+		- keyword arguments kwargs when calling a function
+			AddNum(x=20, y=10)
+			AddNum(y=10, x=20)
+	- performs a task
+
+	- can give outputs
+		print on the console		print()
+			- there can be any number of print() statements
+		give a capturable output	return()
+			- there has to be one return statement
+			- and that should return only one object
+			- this statement is the last statement ever in a function
+			- how to give multple values as o/p?
+				- use any of the 1d DS
+	- we define a function using the keyword def
+
+	-
+		print(10)
+		print(10,20,30)
+		print("This is",100)
+----------------------------------------------------------------------
+Python Modules
+	- Any file with a .py extension
+	- contains code
+		- variables/objects
+		- functions etc
+	- is a resuable entity
+		- all the functions and values in one module (process.py)
+		  can be called in another module (current_task)
+		- just that the first one needs to be "imported"
+
+			import <module_name>
+			import <module_name> as alias
+			from <module> import <module_part> as alias
+			from <module> import <module_part1>,<mod_part2> # don't give alias here!
+
+		- a module that is present in the current folder or
+		  the python installation dir, only those can be 
+		  imported and reused
+
+	- Pacakges
+		- a folder that contains python modules or any 
+		  compiled code from c,cpp,c# etc and also mandatorily
+		  it contains an initiator module __init__.py
+		- all packages are present in site-packages folder
+		- packages can be user-defined and can be downloaded 
+		  from PyPi (Python repository)
+		
+			C:/> pip install <package_name>
+			
+			pip installs pacakges
+
+			- it checks if the package and its dependencies 
+		          are already installed or not
+			   If yes,
+				Requirement already satisfied
+			- If no,
+				check if that is available in PyPi
+			- If yes, then installs it along with 
+			  the dependencies if they are not installed
+			- Sadly, it doesn't check for the version
+		- To update a package
+			pip install --upgrade pandas
+
+
+- functions
+	- check prime
+	- check odd even
+	- enter a string and check for pallindrome
+	- print(dir(str_obj))
+		- try all the attribute functions for a string
+- modules	
+	- create a module with those functions
+	- in a fresh jupy nb, import the module and use the functions
+- packages
+----------------------------------------------------------------------
+Object
+	- a copy/miminc of any real time entity
+	- objects in general and in computing have characterstics
+		and behaviour
+	- it's a combo of data and code
+	- objects are created via a blueprint - class
+
+Class 
+	- a blueprint
+	- a system where we can define certain properties and 
+	  functions so that it gets copied to their objects
+	- objects are created using this very definition
+
+The process of creating an object from a class is called
+		INSTANTIATION
+Instantiation can occur by using a function, which has the same
+name as that of a class name.
+		CONSTRUCTOR
+A function, with same name as that of a class name but so defined
+that it can delete the objects.
+		DESTRUCTOR
+A constructor can be defined by the user but in case when the user
+doesn't define one, the program defines a default contructor
+		COPY CONSTRUCTOR
+The process of wrapping up of code and data together into one single
+unit called class.	
+		ENCAPSULATION
+Classes they provide a mechanism to hide information and only show
+what's required
+		ABSTRACTION
+The phenomenon by which an object can exhibit different behaviour
+at different times
+		POLYMORPHISM
+One class can aquire properties/functions of another class.
+		INHERITANCE
+
+class called Cars
+
+properties		functions
+==========		=========
+make			goFwd()
+model			goBack()
+year			left()
+price			right()
+color			lights()
+engine
+
+
+Cellphone
+props		fucntions
+-----		---------
+make		make_call()
+model		take_call()
+color		send_sms()
+battery		photo()
+screen		selfie(pout = False)
+ram		rec_voice()
+storage		gps()
+camera
+processor
+price
+os
+
+Base Python
+------------
+
+	- syntax
+	- data types
+	- data structures
+		- tuple,list
+		- set
+		- dict
+	- conditionals
+	- loops
+	- user def functions
+	- modules
+	- classes
+
+- learn python the hard way - for python 3.x
+
+----------------------------------------------------------------------
+Packages
+	- collection of modules, other compiled codes
+	- consider a package as an add-on
+	- Example packages for data science
+		- numpy - numerical python - most of the maths functions
+		- pandas - data handling
+		- scipy - scientific py - advance stats
+		- sklearn - ML
+		- matplotlib,		graphs and plots
+		  seaborn,plotly
+		- statsmodels
+		- Tensorflow
+		- pytorch
+----------------------------------------------------------------------
+numpy
+	- numerical python
+	- contains maths and stats functions
+		sum,mean,median,mode,sd,var,skew,
+		abs,log,trignometry, matrix operations
+	- provides a n-dimentional data structure - ndarray
+		- this DS is vectorized
+		- and it is homogeneous
+	- array()
+		- any list, tuple can be converted to ndarray
+----------------------------------------------------------------------
+pandas
+	- panel data analysis
+	- provides a 2d heterogenous data structure or table
+		DataFrame
+	- A DataFrame is a collection of n number of 1d homogenous
+	  data structures
+		Series	
+	- pd.Series()
+		- converts list,tuple or a dict to pandas Series
+		- indexes : two levels of indexes in Series
+			- the default 0 to n-1 : iloc
+				- can't be changed
+				- always exists
+			- the user defined index : loc
+				- can be anything
+			- loc and iloc co-exist
+			- by default loc == iloc
+			- .iloc[0:10]   ---->    0 to 9
+			  .loc[0:10]    ---->    0 to 10 includes 10
+			- .loc[] can be accessed by ser1.index
+			   	.index can also be used to set some
+					indexes
+			
+
+---------------------------------------------------------------------
+
+1. Basic Data Exploration
+2. Structure Manipulations
+	- Extracting Columns
+	- Changing datatypes
+	- adding 
+	- removing
+	- re-arranging columns
+	- renaming columns
+Date and time:
+strptime : string parsing of time and date
+	   symbols to various datetime components
+day
+	day no				%d	12Jan89 : %d%b%y
+	week day abbr			%a	12/01/1989 : %d/%m/%Y
+	week day 			%A	06-07-19 : %d-%m-%y or %m-%d-%y	
+month
+	month no			%m
+	name abbr			%b
+	name				%B
+year
+	with century(2019)		%Y
+	w/o century (19)		%y
+hour
+	12		%I		am/pm : %p
+	24				%H
+mins					%M
+sec					%S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------
+3. Content driven Manipulations
+	- filtering
+	- sorting
+	- removing duplicates
+	- merging
+		pd.merge()
+			left = df
+			right = df
+			--------------------
+			on = ["Common_Col1","Common_Col2",...]
+			or,
+			left_on = ["CommonCol_L1","Common_Col_L2",...]
+			right_on = ["Common_Col_R1","Common_Col_R2",...]
+			--------------------
+			how = "inner"  : defualt 
+			      "outer"
+			      "left"
+			      "right"
+
+	- appending
+	- aggregations
+	- reshaping
+	-------------------------
+	- missing value imputation
+	- outlier removal
+	- binning
+	- Label Encoding 
+	- Onehot Encoding
+	-------------------------
+Types Of Variables
+==================
+Continuous					Categorical
+----------					-----------
+					Nominal		Ordinal
+Age					------		-------
+Salaryx					gender		AgeGroup
+					zone/area	WorkExp 
+					dept		PayScale
+					subject		Rank/Desig
+					StoreType	TaxSlab		
+					Alert_Flag	Dress Size S<M<L<XL
+					color_codes
+					demographic
+					car_type
+					claim_type
+					blood_group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+	- missing value imputation
+		- python missing values - NaN (SQL NULL)
+		- detect missing values
+			- know which column has missing values
+			- how much % of the values are missing
+		- replace those missing values accordingly
+
+	- outlier removal
+	- binning
+	- Label Encoding 
+	- Onehot Encoding
+
+
+- structure based
+- content driven
+==================================================================
+
+- programing elements
+	- cond
+	- loops
+	- udf
+	- modules, packages
+	- classes
+-------------------------------------------------------------
+	- udf with *args and **kwargs
+	- using the udf on a DataFrame
+		(apply)
+
+Visualizations
+	matplotlib
+	seaborn
+----------------------------------------------------------------------
+1. Distribution Charts
+	- shows the extent of a variable/how the data is spread?
+	- E.g. min  Q1   median   Q3   max	-->    whisker plot
+		
+	- boxplot
+	- hist - continuous 
+	- frequency bar - categorical vars
+	- a one variable scatterplot
+	- wordcloud
+
+2. Trend Charts
+	- scatterplot with time at X axis
+	- lineplot
+	- lineplot with NRR on Y and no of overs bowled in X axis
+
+3. Relationship Charts
+	- scatterplot with 2 cont vars
+		Y axis  --> C1
+		X axis  --> C2	
+
+	- heatmap - correlation matrix
+		
+			C1   C3   C4   C7   C10   C12
+		C1	1    n	   n   n    n     n
+		C3
+		C4
+		C7
+		C10
+		C12
+	- barchart
+	- dodged bar chart
+	
+
+4. Constituents/Composition Charts
+	- MAJOR focus is on conveying the constituents of a variable
+	- piechart
+	- doughnout chart
+	- stacked bar
+	- bubble charts
+	- add % to convey extent.
+--------------------------------------
+5. Geographic Charts
+6. Flow Diagrams
+	- flow charts
+	- SWOT
+	- fish bone diagram
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+Desciptive Statistics
+---------------------
+	- measure/calculation done on the entire data
+	- complete data is known to us
+	- we get aggregates, sub sets, graphs etc
+	- sum, mean, median, var, std, counts, cumsum, cumprod etc
+	
+Continuous				Categorical
+----------				-----------
+central tendency			central tendency
+    mean, median			    mode
+measure dispersion			frequency/count
+    var/sd				proportions/count%
+    mad
+    percentiles
+    quantiles(0,25,50,75,100)
+
+-Inf to Inf				variable that can divide
+min to max				the data into n parts
+
+					Nominal		Ordinal
+Best Practice Tasks
+
+	- create two subsets - one for cont, other for cat
+	- categorical variables  : 
+			object
+			int (be careful not to call them cont)
+	- continuous vars
+			int/float
+			any numeric entity (-inf to inf)
+				sales, revenue, measurements etc
+			any countable unit (discrete cont)
+				no_of_cust
+				NoOfClaims			
+				Age, Height etc
+- Missing values
+	- denoted by NaN
+	- detect and replace/remove
+
+	- Replacement :
+		1. with mean (if distribution is symmetric)
+			---------	cont vars
+		2. with median (asymmetric curves)
+		3. with mode (highest occuring category)
+			(cat vars)		
+		4. with some default values
+			(depends on business logic)
+
+	- Remove if you have many rows
+
+Capping Outliers
+
+	=> Percentiles
+
+	
+	- Symmetric Curves
+		IQR Rule for LC and UC
+	
+		IQR = Q3 - Q1
+
+		LC = Q1 - 1.5 * IQR	
+		UC = Q3 + 1.5 * IQR
+		
+	- Normal Curves
+		LC = mean - 3*std_dev
+		UC = mean + 3*std_dev
+
+	- Asymmetric curves
+		max
+		99
+		95
+			d1 = 99 - 95
+			d2 = 100 - 99
+
+	       __._______________._______.
+		95		99	100
+
+			d1 > d2
+		UC = 95%
+		LC = 5%
+
+	      __._______.________________.
+		95	99		100
+			d2 > d1
+		UC = 99%
+		LC = 1%
+
+	      __.___________.____________.
+		95	    99		100
+			d2 == d1
+		UC = 99%
+		LC = 1%
+
+	- binning
+		- convert a cont var to a categorical var
+			Age
+		      10 - 98 ---> 	child
+				   	youth
+					young
+					middle aged
+					elderly
+		- every cont var can be binned according to 
+		  the business need
+	- level/label encoding
+		- converting a cat vat to numbers by alloting 
+		  a number to each of their categoroies
+			E.g. StoreType	Apparel		1
+					Electronics	2
+					Super Mart	3
+		- needed for various stats and ML functions
+		- preferably do this for ordinal variables
+		  as numbers usually don't make (business) sense 
+		  for nominal vars
+	- Onehot Encoding
+		- for a cat var with n categories, we create
+		  n columns
+		- in each column we put 1 or 0 depending on the
+		  value of the cat var
+		- dummy variables
+		- To avoid multi-collinearity problem, we create
+		  n-1 dummies
+-----------------------------------------------------------
+- create some functions and use them on DataFrames
+
+
+---------------------------------------------------------------
+- Sampling
+	- types
+- Estimations
+	- types
+	- Confidence Interval and alpha
+- Prob Distributions
+	- Normal/Gaussian Distribution
+- Central Limit Theorm - 
+- Hypothesis Testing
+	- Z test
+	- Student's t test
+	- F Test or ANOVA
+	- Pearson's Chi Square Test
+
+
+
+
+- Sampling
+	- SRS : 
+		1,000,000 ---> 3000 cust
+              (92%F,8%M)      30%F and 70%M
+	
+	- Stratified Sampling : SRS applied to predefined
+			and mutually exclusive groups
+		
+		-> make sure that 90-95% of sample is F
+			- divide the data into M and F
+			- from F get 90%
+			- from M get 10%
+			- combine
+	- Grouped Sampling : SRS on non mutually exclusive
+			or similar groups
+		- need to find the hidden/unknown patterns 
+		  in the groups - Clustering (kmeans/DBSCAN)
+		- create a new group
+		- then do a sampling
+- Estimations
+	- sample of 3000 people and their annual income
+		- mean(annual_income)
+		- this is an estimate!!
+
+	E.g. : exit polls
+
+
+
+
+
+Inferential 
+
+Estimations : 
+	Point Estimates
+	Interval Estimates
+
+XYZ Party  : How many seats they're expected to win out of 543
+
+	News 1 : 		160
+	--------------------------------------
+	News 2 : 	      130 - 230
+	News 3 : 	      110 - 310
+	News 4 :	       0  - 543
+
+	Actual Results : 180
+
+	Confidence Intervals : 
+		The %ile range within which the actual value 
+	        is expected to fall in 
+
+		90% - being liberal with accuracy
+		95% - default
+		99% - more strict with accuracy
+
+
+		Alpha or 100-CI
+		10% - being liberal with accuracy
+		5% - default
+		1% - more strict with accuracy		
+
+		p-value
+		Event : 
+			Sample Estimate is significatly different
+			from actual value or not
+
+			The probability of actual value lying close to
+			the estimated value
+				if this is high : est ~= actual
+				meaning : sample truly rep population
+				
+				if this is low : est != actual
+				meaning : sample doesn't rep population
+		if p value is low : sample != actual
+		   p value is high : sample ~= acutal						
+------------------------------------------------------------------
+Probability Distributions
+-------------------------
+
+	- f(x)
+	- to calculate prob we need to find the area under the curve
+	- integration
+	- 99% of all data falls under 16-20 commonly occuring 
+		probability distributions
+Normal Distribution
+-------------------
+	- Bell Curve
+	- Symmetric
+		: mean == median == mode
+	- most of the data points are centered around the median/mean
+	- 
+		UC = mean + sd
+		LC = mean - sd
+		68% of all data points they fall under LC and UC
+
+		mean +/- 2 SD : 95.4% of the data points
+		mean +/- 3 SD : 99.7% of the data points
+
+	- skewness = ~0
+	- kurosis : -2 to 2
+---------------------------------------------------------------------
+Standard Normal Distribution
+-----------------------------
+	
+	- We make use of Z transform to convert ND to SND
+		      X - mean(data)
+		Z = ------------------
+	                  sd(data)
+	- exactly same curve as that of the regular data
+	- but the values are now standardized
+	- mean = 0 and SD = 1
+	- by making use of the standard forms, we can calc
+		prob by refering to the standard table
+		::: The Z Table :::
+
+
+	P(W < 120)
+
+			Known : ND
+				mean = 109
+				sd = 13
+	
+
+	P(W < 120) == P(W < Z(120))
+				  120 - 109
+			Z(120) = ----------- = 0.85
+				     13
+
+			P(Wt < Z(120)) = 0.8023 = 80.23%
+
+
+	P(Wt > 141) == 1 - P(Wt < 141)
+
+
+
+		P(Wt < 141) == P(Wt < Z(141))
+
+				  141 - 109
+			Z(141) = ------------- = 2.46 = 0.9930
+				     13
+
+		
+	P(Wt > 141) = 1 - 0.9930 = 0.007 = 0.7%
+	
+
+CLT
+
+	- if one collects enough samples, all sample
+	  means follows Normal Distribution
+	- the mean of sample means is equal to the population mean
+	- the std deviation of sample means is called the
+		STANDARD ERROR
+			      SD_pop
+			SE = --------
+			      sqrt(N)
+
+---------------------------------------------------------------------
+Hypothesis Testing
+------------------
+	- Check if the sample truly represents the population or not
+
+		- cust satisfaction score of 200 cust
+		- data usage of male vs female, is there any difference
+		  among a sample of 500 male, 500 females
+
+				male_usage == female_usage
+				mean_usage != female_usage
+
+		- credit card usage of 4000 customers from N, S, E and W
+
+				n == s == e == w
+
+		- Does gender play any role in deciding pay scale (I>II>III),
+		   for the sample of 500 m and 500 f employees
+
+
+
+	- we'll start by defining the NULL and ALT hypothesis
+	
+		NULL Hypothesis  : always talks about equality
+		ALT Hypothesis   : it is about inequality != --> two tailed test
+					aplha = apl_t1 + alp_t2
+			
+					<		
+				   			     ---> one tailed test
+					>
+	- we'll then decide what test to be done based 
+	  on the data
+		- Z test
+		- t test
+		- ANOVA
+		- chi square
+	- we'll calcluate the test statistic
+	  (the program will return this as O/P)
+		- Z score
+		- t score
+		- ANOVA  F Score
+		- chi square  : X2 Score
+	- The program will also return p -value
+
+	- If this p-value is high (> alpha) then we FAIL TO REJECT
+		the NULL HYPOTHEIS
+	  else, we REJECT the NULL Hyp
+
+---------------------------------------------------------------------
+Z - Test
+---------
+
+Population data : Petrol Price in Indore = 81.65
+
+	Sample = 50 stations = 84
+
+	- it's a test to check whether the sample 
+	  mean is significantly different from population 
+          mean or not
+	- Population must be Normally Distributed
+	- Population mean and std dev must be known
+	- Sample size >= 30
+	- Z Score
+		   sample_mean -  pop_mean
+		= -------------------------
+			std_pop/sqrt(N)
+---------------------------------------------------------------------
+Student's t - Test
+-------------------
+	- it's a test to check whether the sample 
+	  mean is significantly different from population 
+          mean or not
+	- t test gets applicable in most of the scenarios
+	- there is no prior assumption/knowledge about the population
+		- population dist can be anything
+		- mean is not known
+		- std dev is also unknown
+	- sample size < 30
+	- t-score
+			 sample_mean - hypothsized
+			---------------------------
+			      std_sample/sqrt(N)
+
+	- One Sample t test
+			    sample_mean - pop_mean
+		t_score = ---------------------------
+			      std_sample/sqrt(N)
+
+	- two sample/relative sample t test
+			    sample1_mean - sample2_mean
+		t_score = ---------------------------
+			      std_sample1/sqrt(N1)
+	- Independent sample t test
+		
+		cont variable    vs a binary categorical variable
+		
+		data_usage		gender
+		Does gender influence data_usage?
+
+			if male_usage ~= female_usage then 
+			there is no influence of gender in the 
+			data usage
+			
+			datausage_m vs datausage_f
+	
+			s1 = datausage[gender == "M"]
+			s2 = datausage[gender == "F"]
+
+
+			   sample_g1  - sample_g2
+		t_score = ---------------------------
+			      std_sample_g1/sqrt(N)
+
+	- one sample vs the population data
+			ONE SAMPLE T TEST
+	- two sample 
+		- for all cust, did the data usage increase after
+		  we released a data offer? Check that for 1000 sample
+		  customers
+			
+			1000 cust
+		H0 : usage_before_offer == usage_after_offer
+			RELATIVE SAMPLE T TEST
+	- Independent Sample t test
+		- we divide our cont var into a binary category
+		- we check the influence of the binary cat var
+		  over our cont var
+	
+		Does gender effect the data usage? Check for 1000 
+		sample customers..
+		
+		Ho:	male_usage == female_usage
+				there is no influence of gender on du
+
+
+
+
+
+
+
+
+
+	
+---------------------
+Z test and t test   |
+---------------------
+
+1. Credit card usage has improved than last year. 
+   And last year it was 50
+
+	Ho/H0/H_NULL : current month usage == 50
+		"There has been no significant improvement than last year"
+	Ha/H1/H_ALT : current month usage <> 50
+		"There has been a significant change
+		 than last year"
+	
+	one sample ttest (sample = cust.Lat_mon_usage, popmean = 50)
+		p - value
+		t-score
+2. The last campaign was successful!
+	If post camp spend is greater than the pre campaign spend
+	we can say that the camp is successful
+
+	2.1 : check if the effect gets seen in 1st month or not
+
+		Ho : Post_usage_1month == pre_usage
+		    "No effect of the camp/camp is a failure"
+		Ha : Post_usage_1month > pre_usage
+		    "Camp is a success"
+		
+		two sample ttest (a=Post_usage_1month,b=pre_usage)
+
+	2.2 : check if the effect still remains in 2nd month
+
+		Ho : post_usage_2ndmonth == pre_usage
+		    "No effect of the camp in second month"
+		Ha : post_usage_2ndmonth > pre_usage
+		    "Camp is still a success in second month"
+		
+		two sample ttest (a=post_usage_2ndmonth,b=pre_usage)
+
+3. Difference between male and female in terms of CC usage
+
+	Latest_mon_usage - 1 sample
+	sex 0,1	: F,M	 - binary cat variable
+
+	
+	male_usage = Latest_mon_usage[sex==1]
+	female_usage = Latest_mon_usage[sex==0]
+
+
+		Ho : male_usage == female_usage
+		There is no effect of gender or male and female usage		
+		is one and the same
+		Ha : male_usage <> female_usage
+
+		independent sample ttest(a=male_usage, b=female_usage)
+---------------------------------------------------------------------
+
+		https://bit.ly/2CPBQCn
+
+
+---------------------------------------------------------------------
+- Sample
+- Distributions : 
+	- Normal Distributions
+		- a characterstic bell curve
+		- for continous variables
+		- majority of the data points are closer to central tendency
+		- symetrical : mean == median ==mode
+		- skewness ~= 0
+		- kurtosis -2 to 2
+		- mean + sd = 68.7%
+		  mean + 2sd = 95.4%
+		  mean + 3sd = 99.7%
+	
+	- Standard Normal Distribution?
+		- Z Transform
+			        X - mean
+			Z_x = ------------
+				   sd
+
+		P(Wt < 120) = P(Wt < P(120)) = 
+
+		Car_Price = maf cost + tax + features + brand + type + size + market + location + color + no of units avail + fuel type
+
+
+
+
+
+
+4. CC USage of all customers, is it being influenced by 
+	region? Test it on a sample of 200 customers
+
+
+		Latest_month_usage
+		
+		region : 1,2,3
+
+	usage_r1 == usage_r2 == usage_r3
+
+--------------------------------------------------------------------
+ANOVA or One-way F Test
+
+	- Whether a group/categorical variable is influencing
+	  a continuous var or not
+
+		H0 : mean_cat1 == mean_cat2 == mean_cat3 == ....
+		Ha : mean_cat1 <> mean_cat2 <> mean_cat3 <> ....
+
+
+	- A : Intra group variance => less
+	- B : Inter group variance => more
+	- If both A and B are true, we have to conclusions : 
+		1. they're proper groups
+		2. Each group is different from other
+
+		      Inter-group variance
+	- F Score = ------------------------	
+			Intra-group variance
+		   var Between groups
+		 = ------------------------
+		    var inside a group
+
+
+	- A low p-value and a high F score signifies an influence
+	  and establishes a difference between the groups.
+
+
+		- region wise CC usage
+			TEST of influence
+		- what discount to be given to various cust_spends
+			Establishing a difference in groups
+
+-------------------------------------------------------------------
+Continous - Continuous
+Cont - Categorical
+Categorical - Categorical
+
+Pearson's Chi Square Test
+
+	- Test of influence of one cat var over the other
+	Gender M F
+	Experience : Fresher, Beginer, Senior, Expert
+	Location : BLR, MUM, DEL, KOL, CHN
+	
+		
+	Pay Scale : I > II > III
+
+	- We take a cross tab of expected values
+	- We calcualte what could have been the theorical values
+	- If there is a influence, then observed values and 
+		expected values will be significantly different
+
+
+	- H0  :  Observed == Expected
+	  Ha  :  Observed <> Expected
+
+
+	- The chi square score quantifies that influence
+
+		                      (Oi  -  Ei)^2
+		X2 score = SUM (------------------------)
+					    Ei
+	- A low p-value and a high X2 score
+		denotes a good degree of influence!			A vs B and A vs C    corr(A,B) < corr(A,C)
+
+--------------------------------------------------------------------------------------------------------------		
+Test		        Variable	      Kind of test	        Test Score		Remarks
+--------------------------------------------------------------------------------------------------------------	
+1. Correlations	        Cont - Cont	      Test of influence		corr			more means high influence       
+2. One Sample           Cont - Cont           Test of equality		t-score
+   T Test
+3. Rel/2 Sample         Cont - Cont           Test of equality		t-score
+   T Test
+4. Ind Sample           Cont - 2-Cat          Test of equality		t-score
+   T Test				      and Influence		
+5. ANOVA                Cont - Cat            Test of equality		F-score			more means high influence
+   F Test				      and Influence
+6. Chi Square Test      Cat - Cat	      Test of influence		X2-Score		more means high influence
+
+
+
+		f(Sales,Region) < f(Sales,Segments)	:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
